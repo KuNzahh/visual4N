@@ -1,9 +1,9 @@
 object Form10: TForm10
-  Left = 242
-  Top = 166
+  Left = 138
+  Top = 150
   Width = 849
   Height = 501
-  Caption = 'Form10'
+  Caption = '7. Latihan Database'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -21,6 +21,7 @@ object Form10: TForm10
     Height = 33
     Caption = 'TAMBAH DATA BARU'
     TabOrder = 0
+    OnClick = btntambahClick
   end
   object btnload: TButton
     Left = 440

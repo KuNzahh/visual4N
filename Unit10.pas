@@ -23,6 +23,7 @@ type
     procedure btnloadClick(Sender: TObject);
     procedure btntampilClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure btntambahClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,6 +34,8 @@ var
   Form10: TForm10;
 
 implementation
+
+uses Unit11;
 
 {$R *.dfm}
 
@@ -73,6 +76,13 @@ begin
   dbgrd1.Columns[6].width:=110;
   dbgrd1.Columns[7].width:=80;
   cht1.Title.text.Add('GRAFIK KEHADIRAN PRAKTIKUM SISWA');
+end;
+
+procedure TForm10.btntambahClick(Sender: TObject);
+begin
+ if form11=nil then
+ form11:= Tform11.Create(Application);
+ form11.Show;
 end;
 
 end.
