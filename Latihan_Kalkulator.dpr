@@ -11,7 +11,8 @@ uses
   Unit7 in 'C:\Users\Acer.LAPTOP-5H379U88\Downloads\Unit7.pas' {form5},
   Unit8 in 'Unit8.pas' {Menu},
   Unit9 in 'Unit9.pas' {form9},
-  Unit10 in 'Unit10.pas' {Form10};
+  Unit10 in 'Unit10.pas' {Form10},
+  Unit11 in 'Unit11.pas' {Form11};
 
 {$R *.res}
 
@@ -27,5 +28,6 @@ begin
   Application.CreateForm(Tform1, form1);
   Application.CreateForm(Tform9, form9);
   Application.CreateForm(TForm10, Form10);
+  Application.CreateForm(TForm11, Form11);
   Application.Run;
 end.
